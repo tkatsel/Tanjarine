@@ -7,7 +7,8 @@ html{
     height: 77px; 
     left: 30%; 
     top: 50%; 
-    position: absolute; color: #2B6BB6; 
+    position: relative; 
+    color: #2B6BB6; 
     font-size: 50px; 
     font-family: Inria Sans; 
     font-weight: 700; 
@@ -19,7 +20,7 @@ html{
     left: 5px; 
     top: 5px; 
     z-index: 100;
-    position: fixed
+    position: absolute
 }
 
 #ribbon{
@@ -39,7 +40,7 @@ html{
     left: 0px; 
     top: 0px; 
     z-index: 100;
-    position: fixed
+    position: absolute
 }
 
 #alsomenu{
@@ -48,5 +49,5 @@ html{
     left: 80%; 
     top: 3%; 
     z-index: 100;
-    position: fixed
+    position: absolute
 }
