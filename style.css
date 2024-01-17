@@ -19,7 +19,7 @@ html{
     left: 5px; 
     top: 5px; 
     z-index: 100;
-    position: absolute
+    position: fixed
 }
 
 #ribbon{
@@ -27,7 +27,7 @@ html{
     height: 100px; 
     left: 0px; 
     top: 0px; 
-    position: absolute; 
+    position: fixed; 
     background: white;
     z-index: 80;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
@@ -39,7 +39,7 @@ html{
     left: 0px; 
     top: 0px; 
     z-index: 100;
-    position: absolute
+    position: fixed
 }
 
 #alsomenu{
@@ -48,5 +48,5 @@ html{
     left: 80%; 
     top: 3%; 
     z-index: 100;
-    position: absolute
+    position: fixed
 }
