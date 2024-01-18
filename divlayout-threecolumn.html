@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DIV layouts</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+html{
+    background: #BDE9FA
+}
+
+/* Create a fixed banner at the top */
+.banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  text-align: center;
+  font-size: 36px;
+  line-height: 100px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+
+/* Create a responsive three column layout */
+.container {
+  margin-top: 80px; /* Adjust the margin to match the banner height */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 200px; /* Make the columns equal width if you write 1 */
+  min-width: 30%; /* Set a minimum width for smaller screens */
+  padding: 100%;
+}
+
+/* Add some colors and borders for demonstration */
+#one {
+
+}
+
+#two {
+  background-color: white;
+}
+
+#three {
+
+}
+</style>
+</head>
+<body>
+<div class="banner"></div>
+<div class="container">
+  <div class="column" id="one">This is the first column</div>
+  <div class="column" id="two">This is the second column</div>
+  <div class="column" id="three">This is the third column</div>
+</div>
+</body>
+</html>
